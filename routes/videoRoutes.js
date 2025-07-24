@@ -1,6 +1,6 @@
 import express from 'express';
 import multer from 'multer';
-import {  listVideos, uploadOrUpdateVideo } from '../digiOcean.js';
+import {  listVideos, uploadOrUpdateVideo, downloadVideo, deleteVideo, downloadVideo } from '../digiOcean.js';
 // Importing it in another file
 import { myFunction, myFunction2, myHeading01 } from './dbSpacesjs.js';
 //import { uploadOrUpdateVideo, listVideos, deleteVideo, downloadVideo } from '../docean.js';
