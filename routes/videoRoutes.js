@@ -1,3 +1,11 @@
+
+
+//  Name:  Ronald Kiefer
+//  Date:  August 11, 2025
+//  Description:  videoRoutes.js file
+//  for connecting to digiOcean.js for connecting to DigitalOcean Spaces db
+
+
 import express from 'express';
 import multer from 'multer';
 import {  listVideos, uploadOrUpdateVideo, downloadVideo, deleteVideo } from '../digiOcean.js';
