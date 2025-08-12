@@ -10,7 +10,7 @@ import express from 'express';
 import multer from 'multer';
 import {  listVideos, uploadOrUpdateVideo, downloadVideo, deleteVideo } from '../digiOcean.js';
 // Importing it in another file
-import { myFunction, myFunction2, myHeading01 } from './spaces.js';
+import { myFunction, myFunction2, myHeading01 } from './funSpaces.js';
 //import { uploadOrUpdateVideo, listVideos, deleteVideo, downloadVideo } from '../docean.js';
 
 
